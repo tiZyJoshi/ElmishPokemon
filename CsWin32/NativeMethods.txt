@@ -1,0 +1,11 @@
+﻿GetStdHandle
+CreateConsoleScreenBuffer
+SetConsoleActiveScreenBuffer
+WriteConsoleOutput
+GetConsoleScreenBufferInfo
+ScrollConsoleScreenBuffer
+SetConsoleCursorPosition
+GetConsoleMode
+SetConsoleMode
+GetConsoleCursorInfo
+SetConsoleCursorInfo
