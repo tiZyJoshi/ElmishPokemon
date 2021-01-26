@@ -2,15 +2,23 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="Playground.fsx" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
+  <ItemGroup />
+
   <ItemGroup>
     <PackageReference Include="Elmish" Version="3.1.0" />
+    <PackageReference Include="Terminal.Gui" Version="0.90.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CsWin32\CsWin32.csproj" />
   </ItemGroup>
 
 </Project>
